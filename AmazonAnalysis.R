@@ -13,8 +13,8 @@ library(ggplot2)
 library(embed)
 library(glmnet)
 
-train <- vroom("C:\\Users\\Jenna\\OneDrive\\Desktop\\Statistics\\Stat 348\\AmazonEmployeeAccess\\train.csv")
-test <- vroom("C:\\Users\\Jenna\\OneDrive\\Desktop\\Statistics\\Stat 348\\AmazonEmployeeAccess\\test.csv")
+train <- vroom("train.csv")
+test <- vroom("test.csv")
 
 # DataExplorer::plot_correlation(train)
 # DataExplorer::plot_histogram(train)
